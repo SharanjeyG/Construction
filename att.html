@@ -54,16 +54,16 @@
             <table>
                  <thead>
                      <tr>
-                        <th>Presnt</th>
+                        <th>Present</th>
                         <th>Absent</th>
                         <th>Total</th>
                      </tr>
                  </thead>
                  <tbody>
                      <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="prs"></td>
+                        <td class="abs"></td>
+                        <td class="tot"></td>
                      </tr>
                  </tbody>
              </table>
@@ -74,12 +74,11 @@
                 <label for="male">MALE: </label>
                 <input type="text" id="male" required>
                 <label for="female">FEMALE: </label>
-                <input type="text" id="female" required>
+                <input type="text" id="female" reqluired>
                 <label for="contract">CONTRACT: </label>
                 <input type="text" id="contract" required>   
             </form>
-            <div class="work_but"><button>Mark Attendance</button></div>
-            
+            <div class="work_but"><button>Mark Attendance</button></div>    
         </div>
     </div>
     <div class="four">
@@ -96,8 +95,13 @@
                 <tr>
                     <td>Sharanjey G</td>
                     <td>Lineman</td>
-                    <td>2</td>
-                    <td>Present</td>
+                    <td>2</td> 
+                    <td id="dis">
+                        <div class="p_a">
+                        <button class="prs" id="present" style="margin-right: 10px; background-color: green;">Present</button>
+                        <button class="abs" id="absent" style="margin-left: 10px; background-color: red;">Absent</button>
+                    </div>
+                    </td> 
                 </tr>
             </tbody>
         </table>

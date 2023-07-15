@@ -127,7 +127,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.att.date-DU2 .ooui-next-ltr-Zre {
+.att .date-DU2 .ooui-next-ltr-Zre {
   width: 0.624rem;
   height: 1.08rem;
   object-fit: contain;
@@ -240,14 +240,44 @@ body {
   width: 85%;
   text-transform: uppercase;
   size: 50px;
+  text-align: center;
 }
 
-.att .four thead th,td{
-  padding: 20px 20px 20px 20px ;
-  text-align: center;
+.att .four thead th, .four td{
+  padding: 20px 20px 20px 50px ;
   background-color: white;
 }
+.att .four td button{
+  border: 0;
+  width: 90px;
+  height: 30px;
+  font-size: 14px;
+  color: white;
+  border-radius: 2rem;
+  align-items: center;
+}
 .att .four thead{
+  border: 2px solid #ccc;
+}
+.att h2{
+  padding: 20px;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #404040;
+  white-space: nowrap;
+  text-transform: uppercase;
+  margin-left: 0;
+}
+.att input{
+  font-size: 14px;
+  margin-left: 20px;
+  width: 250px;
+  height: 40px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 10px;
   border: 2px solid #ccc;
 }
 /*Popup*/
@@ -388,4 +418,294 @@ body {
 .pent .second thead{
   border: 2px solid #ccc;
 }
+/*Popup*/
+.pent .popup-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.pent .popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 80%; 
+  height: 60%;
+  max-width: 700px;
+  max-height: 1000px;
+  overflow-y: auto;
+  font-family: Sora, 'Source Sans Pro';
+}
+
+.pent .popup-header {
+  box-sizing: border-box;
+  padding: 1.7rem 2.2rem 1.8rem 1.24rem;
+  width: 100%;
+  height: 5.8rem;
+  display: flex;
+  align-items: center;
+  background-color: #293391;
+  border-radius: 1.2rem ;
+  flex-shrink: 0;
+}
+
+.pent .popup-header h2 {
+  margin: 0;
+  font-size: 24px;
+  color:white;
+}
+
+.pent .cancel {
+  align-items: center;
+  margin-left: 300px;
+  height: 30px;
+  border: none;
+  background-color: gray;
+  border-radius: 2.5rem;
+  color: white;
+  cursor: pointer;
+}
+.pent .add_wr{
+  margin-left: 20px;
+  align-items: center;
+  height: 30px;
+  border: none;
+  background-color: gray;
+  border-radius: 2.5rem;
+  color: white;
+  cursor: pointer;
+}
+.pent .form input{
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+/*Porder*/
+.pout h2{
+  padding: 20px;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #404040;
+  white-space: nowrap;
+  text-transform: uppercase;
+  margin-left: 0;
+}
+.pout input{
+  font-size: 14px;
+  margin-left: 20px;
+  width: 250px;
+  height: 40px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+.pout .first{
+  margin-top: 0;
+  display: flex;
+}
+.pout .first button{
+  font-size: 14px;
+  border: 0;
+  color: white;
+  margin-left: 80px;
+  width:150px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #242E82;
+  box-shadow: 0px 0px 3px 0.5px rgba(0, 0, 0, 0.25);
+}
+.pout .down{
+  margin-left: 100rem;
+}
+.pout button i{
+  padding-right: 10px;
+}
+.pout .second{
+  margin: 50px 0 0 20rem;
+}
+.pout .second table{
+  border-collapse: collapse;
+  border: 3px solid #ccc; 
+  border-radius: 10px;
+  font-size: 15px;
+  width: 85%;
+  text-transform: uppercase;
+  size: 50px;
+}
+
+.pout .second thead th,td{
+  padding: 20px 20px 20px 20px ;
+  text-align: center;
+  background-color: white;
+}
+.pout .second thead{
+  border: 2px solid #ccc;
+}
+/*Popup*/
+.pout .popup-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.pout .popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 80%; 
+  height: 60%;
+  max-width: 700px;
+  max-height: 1000px;
+  overflow-y: auto;
+  font-family: Sora, 'Source Sans Pro';
+}
+
+.pout .popup-header {
+  box-sizing: border-box;
+  padding: 1.7rem 2.2rem 1.8rem 1.24rem;
+  width: 100%;
+  height: 5.8rem;
+  display: flex;
+  align-items: center;
+  background-color: #293391;
+  border-radius: 1.2rem ;
+  flex-shrink: 0;
+}
+
+.pout .popup-header h2 {
+  margin: 0;
+  font-size: 24px;
+  color:white;
+}
+
+.pout .cancel {
+  align-items: center;
+  margin-left: 300px;
+  height: 30px;
+  border: none;
+  background-color: gray;
+  border-radius: 2.5rem;
+  color: white;
+  cursor: pointer;
+}
+.pout .add_wr{
+  margin-left: 20px;
+  align-items: center;
+  height: 30px;
+  border: none;
+  background-color: gray;
+  border-radius: 2.5rem;
+  color: white;
+  cursor: pointer;
+}
+.pout .form input{
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/*Master Node*/
+.masnode h2{
+  padding: 30px 0 0 30px;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #404040;
+  white-space: nowrap;
+  text-transform: uppercase;
+  margin-left: 0;
+}
+.masnode .fist{
+  display: flex;
+  padding: 100px;
+ 
+}
+.masnode .fist button{
+  text-transform: uppercase;
+  display: flex;
+  font-size: 14px;
+  padding: 15px;
+  align-items: center;
+  border-radius: 10px;
+  background: #242E82;
+  box-shadow: 0px 0px 3px 0.5px rgba(0, 0, 0, 0.25);
+  margin: 30px;
+  color: white;
+  width: 300px;
+  height: 50px;
+  border: 0;
+  cursor: pointer;
+}
+.masnode .fist .cli{
+  margin-top: 120px;
+  margin-left:-690px
+}
+.masnode .fist .pro{
+  margin-top: 120px;
+}
+
+/*Vendour Mangement*/
+.venman  h2{
+  padding: 30px 0 0 30px;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #404040;
+  white-space: nowrap;
+  text-transform: uppercase;
+  margin-left: 0;
+}
+.venman  .fist{
+  display: flex;
+  padding: 100px;
+ 
+}
+.venman  .fist button{
+  font-size: 14px;
+  text-transform: uppercase;
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  border-radius: 10px;
+  background: #242E82;
+  box-shadow: 0px 0px 3px 0.5px rgba(0, 0, 0, 0.25);
+  margin: 30px;
+  color: white;
+  width: 300px;
+  height: 50px;
+  border: 0;
+  cursor: pointer;
+}
+.venman  .fist .cli{
+  margin-top: 120px;
+  margin-left:-690px
+}
+.venman  .fist .pro{
+  margin-top: 120px;
+}
+
 

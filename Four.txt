@@ -1,0 +1,382 @@
+/*Four
+.att .four h2{
+  width: 50px;
+  height: 50px;
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: #404040;
+  white-space: nowrap;
+  margin-left: 20px ;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.att .list li{
+  margin-top: 30px;
+  box-sizing: border-box;
+  padding: 2.2rem 2.6rem 2.3rem 3.4rem;
+  width: 112.3rem;
+  height: 9.9rem;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+.att li .button{
+  margin-bottom: 15px;
+  margin-left: 75rem;
+}
+.att .button .prt{
+  width: 100px;
+  background-color: darkblue;
+  border-radius:2rem ;
+  color: #f2f2f2;
+  justify-content: center;
+  margin-right: 10px;
+}
+.att .button .abs{
+  width: 100px;
+  background-color: darkblue;
+  border-radius:2rem ;
+  color: #f2f2f2;
+  justify-content: center;
+  margin-left: 10px;
+}
+.att .value .name{
+  margin-bottom: 0.7rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.26;
+  color: #000000;
+  font-family: Sora, 'Source Sans Pro';
+}
+.att .value .occup{
+  margin-bottom: 0.7rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.26;
+  color: #000000;
+  font-family: Sora, 'Source Sans Pro';
+}
+.att .mason{
+  margin-top: 0;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.att .mason .button{
+  margin-right: 90rem;
+}
+.att .carp{
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.att .carp .button{
+  margin-right: 90rem;
+}*/
+
+
+ <div class="second">
+        <!--div class="date">
+            <form>
+                <span>
+                    <label for="day">Date</label>
+                    <select name="day" id="day"></select>
+                </span>
+                <span>
+                    <label for="mon">Month</label>
+                    <select name="mon" id="mon"></select>
+                </span>
+                <span>
+                    <label for="year">Year</label>
+                    <select name="year" id="year"></select>
+                </span>
+            </form>
+        </div-->
+    </div>
+
+/*Second*/
+.att .second {
+  margin-top: 0;
+  display: flex;
+  align-items: center; /* Aligns items vertically */
+  justify-content: space-between;
+  margin-top: 20px; /* Adds space between "Attendance" and buttons */
+}
+/*.att .date {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-family: Sora, 'Source Sans Pro';
+}
+
+.att .date form {
+  display: flex;
+  gap: 10px;
+}
+
+.att .date label {
+  font-weight: 300;
+}
+
+.att .date select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}*/
+.att .count{
+  margin-right: 120px;
+  font-size: 14px;
+  border-radius: 2rem;
+}
+.att table {
+  border-style: none;
+  width: 100%;
+}
+
+.att th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+.att th {
+  background-color: #f2f2f2;
+}
+
+.att tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/*Third*/
+.att .third{
+  font-family: Sora, 'Source Sans Pro';
+}
+.att .third h2{
+  width: 50px;
+  height: 50px;
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: #404040;
+  white-space: nowrap;
+  margin-left: 20px ;
+  text-transform: uppercase;
+}
+.att .workers{
+  margin-left: 25px ;
+  margin-top: 0;
+  display: flex;
+  align-items: center; /* Aligns items vertically */
+  justify-content: space-between;
+  margin-top: 20px; /* Adds space between "Attendance" and buttons */
+}
+.att .workers form{
+  font-size: 14px;
+  font-weight: 300;
+}
+.att .workers input{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.att .work_but button{
+  justify-content: center;
+  width: 150px;
+  color:#f2f2f2;
+  background-color: darkblue;
+  border-radius: 2rem;
+  margin-right: 35rem;
+}
+
+
+/*Main*/
+.att .main {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center; /* Aligns items vertically */
+  justify-content: space-between;
+  margin-top: 20px; 
+}
+#today{
+  margin-left: 100rem;
+  color: #f2f2f2;
+  font-size: 14px;
+  text-align: center;
+  background-color: darkblue;
+  margin-top: 1px;
+  border-radius: 2rem;
+}
+.att h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: #404040;
+  font-family: Sora, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-left: 20px ;
+}
+
+.att .button {
+  line-height: 70px;
+  height: 40px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 400px;
+}
+
+.att button {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: none;
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.att .button button i {
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.att .add {
+  width: 100%;
+  height: 100%;
+  margin-right: 50px;
+  border-radius: 2rem;
+  background-color: darkblue;
+  color: #f2f2f2;
+  align-items: center;
+  white-space: nowrap;
+}
+
+
+<!--div class="four">
+        <h2>Contract Workers</h2>
+        <div class="list">
+            <ul>
+                <li class="one">
+                    <div class="carp">
+                        <div class="value">
+                            <p class="name">Vijaysurya</p>
+                            <p class="occup">Carpenter</p>
+                            <p class="sft">1 Shift</p>
+                        </div>
+                        <div class="button">
+                            <button class="prt">
+                                Present
+                            </button>
+                            <button class="abs">
+                                Absent
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="two">
+                    <div class="mason">
+                        <div class="value">
+                            <p class="name">Sharanjey</p>
+                            <p class="occup">Mason</p>
+                            <p class="sft">1 Shift</p>
+                        </div>
+                        <div class="button">
+                            <button class="prt">
+                                Present
+                            </button>
+                            <button class="abs">
+                                Absent
+                            </button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div-->
+
+    /*const year = document.getElementById('year');
+  const mon = document.getElementById('mon');
+  const date = document.getElementById('day');
+
+  const months = [
+    'Jan',
+    'Feb',
+    'Mar',
+    'April',
+    'May',
+    'June',
+    'July',
+    'Aug',
+    'Sep',
+    'Oct',
+    'Nov',
+    'Dec'
+  ];
+
+  (function populateMonths() {
+    for (let i = 0; i < months.length; i++) {
+      const option = document.createElement('option');
+      option.textContent = months[i];
+      mon.appendChild(option);
+    }
+  })();
+
+  function populateDays(month) {
+    while (date.firstChild) {
+      date.removeChild(date.firstChild);
+    }
+    let dayNum;
+
+    if (
+      month === 'Jan' ||
+      month === 'Mar' ||
+      month === 'May' ||
+      month === 'July' ||
+      month === 'Aug' ||
+      month === 'Oct' ||
+      month === 'Dec'
+    ) {
+      dayNum = 31;
+    } else if (month === 'April' || month === 'June' || month === 'Sep' || month === 'Nov') {
+      dayNum = 30;
+    } else if (month === 'Feb') {
+      const yearValue = parseInt(year.value);
+      if ((yearValue % 4 === 0 && yearValue % 100 !== 0) || yearValue % 400 === 0) {
+        dayNum = 29;
+      } else {
+        dayNum = 28;
+      }
+    }
+
+    for (let i = 1; i <= dayNum; i++) {
+      const option = document.createElement('option');
+      option.textContent = i;
+      date.appendChild(option);
+    }
+  }
+
+  function populateYears() {
+    let yr = new Date().getFullYear();
+    for (let i = 0; i < 101; i++) {
+      const option = document.createElement('option');
+      option.textContent = yr - i;
+      year.appendChild(option);
+    }
+  }
+
+  populateDays(mon.value);
+  populateYears();
+
+  year.onchange = function () {
+    populateDays(mon.value);
+  };
+  mon.onchange = function () {
+    populateDays(mon.value);
+  };*/

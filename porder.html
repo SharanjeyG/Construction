@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT ORDER</title>
+    <link rel="stylesheet" href="porder.css" />
+    <script src="porder.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+</head>
+
+<body>
+    <div class="page">
+        <div class="container">
+            <div class="text">
+                <h1>PROJECT ORDER</h1>
+            </div>
+
+
+            <div class="search-bar">
+                <div class="search-input-container">
+                    <i class="fas fa-search search-icon"></i>
+
+                    <input type="text" class="search-input"
+                        placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Search Material">
+                </div>
+                <button class="add-button" onclick="openForm()"><i class="fas fa-plus"></i> Add material</button>
+
+                <button class="download-button"><i class="fas fa-download"></i> &nbsp;&nbsp;Download</button>
+
+            </div>
+
+            <div class="table-container">
+                <form>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>S.NO.</th>
+                                <th>MATERIALS</th>
+                                <th>REQUIRED</th>
+                                <th>UNIT PRICE</th>
+                                <th>PRICE</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> 1</td>
+                                <td>Jelly</td>
+                                <td>6.5</td>
+                                <td>150</td>
+                                <td>975</td>
+                            </tr>
+                            <tr>
+                                <td> 2</td>
+                                <td>Brick</td>
+                                <td>6.5</td>
+                                <td>150</td>
+                                <td>975</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+
+
+            <div class="form-popup" id="myForm">
+
+                <form class="form-container">
+                    <div class="navbar">
+                        <h2> Add Material </h2>
+                        <button type="button" class="cancel-button" onclick="closeForm()">Cancel</button>
+                      </div>
+                    <div class="material">
+                        <h3>MATERIAL DETAILS</h3>
+                                                    
+                    </div>
+                    <div class="name">
+                        
+                    <input type="text" placeholder="Vendor Name" required>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Nams of the Material" required>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Required Quamtity" required>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Supplied Quamtity" required>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Unit price" required>
+                    </div>
+                   
+                    <button type="button" class="cancel-button" onclick="closeForm()">Cancel</button>
+
+                    <button type="submit" class="add1-button">&nbsp;&nbsp;Add&nbsp;&nbsp;</button>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>

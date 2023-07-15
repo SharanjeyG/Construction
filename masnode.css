@@ -1,0 +1,38 @@
+*{
+    font-family: Sora, 'Source Sans Pro';;
+}
+h2{
+    padding: 30px 0 0 30px;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #404040;
+    white-space: nowrap;
+    text-transform: uppercase;
+    margin-left: 0;
+}
+.fist{
+    display: flex;
+    padding: 100px;
+   
+}
+.fist button{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    border-radius: 10px;
+    background: #242E82;
+    box-shadow: 0px 0px 3px 0.5px rgba(0, 0, 0, 0.25);
+    margin: 30px;
+    color: white;
+    width: 300px;
+    height: 50px;
+    border: 0;
+    cursor: pointer;
+}
+.fist .cli{
+    margin-top: 120px;
+    margin-left:-690px
+}
+.fist .pro{
+    margin-top: 120px;
+}

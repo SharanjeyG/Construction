@@ -12,13 +12,32 @@ document.addEventListener('DOMContentLoaded', function () {
       document.querySelector('.popup-container').style.display = 'none';
     });
   
-    /*let today = document.getElementById("today");
+    let date_n = document.querySelector(".item-14-Laa");
+    let day_n = document.querySelector(".wed-TfC");
+    let date_p = document.querySelector(".item-13-1en");
+    let day_p = document.querySelector(".tue-8UW");
+    let date_a = document.querySelector(".item-15-hpS");
+    let day_a = document.querySelector(".thu-pu4");
+    let mon_n = document.querySelector(".jun-amL");
     let crtdte = new Date();
-    let day = `${crtdte.getDate() < 10 ? "0" : ""}${crtdte.getDate()}`;
-    let month = `${(crtdte.getMonth() + 1) < 10 ? "0" : ""}${crtdte.getMonth()+1}`;
+    let date = crtdte.getDate();
+    let day = crtdte.getDay();
+    let days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
+    let day_f = days[day];
+    let dayp = days[day-1];
+    let daya = days[day+1];
+    let mon = crtdte.getMonth();
+    let mons = ['Jan','Feb','Mar','April','May','June','July','Aug','Sep','Oct','Nov','Dec'];
+    let mon_f = mons[mon];
     let yr = crtdte.getFullYear();
-    console.log(month)
-    today.textContent =`${day}/${month}/${yr}`;*/
+    console.log(mon);
+    date_n.textContent =`${date}`;
+    day_n.textContent =`${day_f}`;
+    date_p.textContent =`${date-1}`;
+    day_p.textContent =`${dayp}`;
+    date_a.textContent =`${date+1}`;
+    day_a.textContent =`${daya}`;
+    mon_n.textContent = `${mon_f}` 
 
     const mark = document.querySelector('.work_but');
 
@@ -160,5 +179,6 @@ document.addEventListener('DOMContentLoaded', function () {
       window.location.href = "pordm.html";
     });
   });
+
 
   

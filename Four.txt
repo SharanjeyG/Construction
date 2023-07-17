@@ -380,3 +380,13 @@
   mon.onchange = function () {
     populateDays(mon.value);
   };*/
+
+document.addEventListener('DOMContentLoaded', function () {
+  const buttons = document.querySelectorAll('button');
+
+  buttons.forEach(button => {
+    button.addEventListener('click', function () {
+      this.blur(); // Remove focus from the clicked button
+    });
+  });
+});
